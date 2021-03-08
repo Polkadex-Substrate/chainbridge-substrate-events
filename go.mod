@@ -1,6 +1,6 @@
-module github.com/ChainSafe/chainbridge-substrate-events
+module github.com/Polkadex-Substrate/chainbridge-substrate-events
 
-go 1.13
+go 1.16
 
 require (
 	github.com/Snowfork/go-substrate-rpc-client v2.0.0+incompatible
