@@ -25,10 +25,10 @@ type EventFungibleTransfer struct {
 	Destination  types.U8
 	DepositNonce types.U64
 	ResourceId   types.Bytes32
+	TokenAddress types.AccountID
 	Amount       types.U256
 	Recipient    types.Bytes
 	Topics       []types.Hash
-	TokenAddress types.AccountID
 }
 
 type EventNonFungibleTransfer struct {
