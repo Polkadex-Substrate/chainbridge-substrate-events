@@ -28,6 +28,7 @@ type EventFungibleTransfer struct {
 	Amount       types.U256
 	Recipient    types.Bytes
 	Topics       []types.Hash
+	TokenAddress types.AccountID
 }
 
 type EventNonFungibleTransfer struct {
